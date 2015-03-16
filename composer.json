@@ -1,0 +1,18 @@
+{
+    "name": "crazy-studio/yii2-acts-as-tenant",
+    "version": "dev-develop",
+    "source": {
+        "url": "",
+        "type": "git",
+        "reference": "develop"
+    },
+    "require": {
+        "php": ">= 5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "CrazyStudio\\ActsAsTenant": "src"
+        }
+    }
+}
