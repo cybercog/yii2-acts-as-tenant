@@ -33,7 +33,7 @@ trait TenantTrait
 
     private static function getTenantIdForDomain($domain)
     {
-        $domain = (new Yii::$app->actsAsTenant->domainModelClass)::findOne(['domain' => $domain]);
+        $domain = (new Yii::$app->actsAsTenant->domainModelClass)->findOne(['domain' => $domain]);
         if (isset($domain)) {
             return $domain->tenant_id;
         }
