@@ -2,7 +2,7 @@
     "name": "crazy-studio/yii2-acts-as-tenant",
     "version": "dev-develop",
     "source": {
-        "url": "",
+        "url": "https://github.com/Crazy-Studio/yii2-acts-as-tenant",
         "type": "git",
         "reference": "develop"
     },
