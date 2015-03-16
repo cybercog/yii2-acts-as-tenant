@@ -1,10 +1,10 @@
 {
     "name": "crazy-studio/yii2-acts-as-tenant",
-    "version": "dev-develop",
+    "version": "dev-master",
     "source": {
         "url": "https://github.com/Crazy-Studio/yii2-acts-as-tenant",
         "type": "git",
-        "reference": "develop"
+        "reference": "master"
     },
     "require": {
         "php": ">= 5.4.0",
